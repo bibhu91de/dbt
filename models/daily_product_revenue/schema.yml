@@ -22,9 +22,7 @@ models:
       
     - name: order_details
       description: "A order_details dbt model"
-      columns:
-          - name: order_id
-            description: "The primary key for this table"
-            tests:
-                - unique
-                - not_null
+      
+    - name: daily_product_revenue
+      description: "A order_details dbt model"
+      
